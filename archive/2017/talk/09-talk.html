@@ -1,0 +1,26 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">Chameleon: Automatic Generation of Low-Interaction Web Honeypots</h4>
+    <p>
+        <i>Marius Musch (TU Braunschweig), Martin Härterich (SAP SE)</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+        Low-interaction honeypots (LIHPs) are a well-established tool to monitor malicious activities and detect previously unknown attacks by emulating the appearance and behavior of a real system. However, existing honeypots share a common problem: Anyone aware of their existence can easily fingerprint and subsequently avoid them. Especially for web application honeypots facing the Internet, companies would rather like to know if the specific applications they use are targeted in attacks and not if some generic honeypot finds attacks of no relevance to their own infrastructure.
+    </p>
+    <p>
+        In this talk, we present Chameleon, an approach for the fully automatic generation of LIHPs. Chameleon creates honeypot versions of existing systems through automatic network interaction with the real systems and building response templates from the observed response traffic. By comparing similar responses, variable parts are identified and imitated with these templates. On run-time, the best matching template is chosen to respond to a received network request. This approach allows a large-scale deployment of Honeypots in a highly scalable fashion: No manual effort is need in honeypot generation and a single instance of Chameleon can emulate a large number of systems simultaneously. Thus, a LIHP infrastructure for a company's full application landscape can be created, deployed and operated automatically with little effort and minimal technical resource requirements in a timely fashion.
+    </p>
+    <p>
+        We document our prototypical implementation for HTTP(S) and our practical experiments with Chameleon's honeypots in the wild. Our results show that the generated honeypots are indistinguishable for popular fingerprinting tools and the received traffic shows no difference to traffic directed at real systems.    </p>
+    <p>
+        <i>Marius Musch is a PhD candidate at the Braunschweig University of Technology. His main field of research is web application security with a focus on client-side attacks.</i>
+    </p>
+    <p>
+        <i>Martin Härterich joined SAP Security Research in 2011 and since then has been working on as diverse fields as threat modeling, applied cryptography, intrusion detection and more recently on honeypots. Martin holds a PhD in pure mathematics from the University of Freiburg.</i>
+    </p>
+</div></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>

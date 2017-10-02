@@ -1,0 +1,33 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">NinjaDVA - NinjaDVA is not just another damn vulnerable application</h4>
+    <p>
+        <i>Benjamin Kellermann (MGM Security Partners)</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+        Webgoat, Metasploitable, DVWA, OWASP Shepherd usw. sind alles wertvolle Applikationen, an denen man Schwachstellen ausprobieren kann. Darüber hinaus gibt es mit Vulnhub, Hacking-Lab, Web Security Dojo, usw. bereits einige Implementierungen für vollständige Lernumgebungen (Lab) mit vielen integrierten Applikationen (Damn Vulnerable Applikationen). Auch unser Projekt besteht im Kern aus einer Sammlung verschiedener Anwendungen, welche unterschiedliche Schwachstellen implementieren.
+    </p>
+    <p>
+        Im Unterschied zu allen anderen Umsetzungen ist unser Lab dafür ausgelegt, während Schulungen von vielen Teilnehmern gleichzeitig benutzt zu werden.
+    </p>
+    <p>
+        Den Einstieg bildet ein Dashboard, in welchem der geplante Seminarablauf eingesehen und der Vortragsinhalt nachverfolgt werden kann. Zusätzlich bietet es kommunikative Möglichkeiten für den Austausch mit dem Schulungsleiter oder anderen Seminarteilnehmern.
+    </p>
+    <p>
+        Einzelne Module des Dashboards werden im Laufe des Vortrags benutzt, um verschiedene Schwachstellen anhand von Webanwendungen live und anschaulich zu demonstrieren. So beinhaltet beispielsweise die Funktion zum Öffnen neuer Folien innerhalb des Dashboards eine XSS-Schwachstelle. Die Integration von Präsentations- und Schulungsumgebung ermöglich es den Schulungsteilnehmern, mit minimalem Einarbeitungsaufwand in einer höchst homogenen Schulungsumgebung effektiv zu experimentieren und Gelerntes zu vertiefen. Der Teilnehmer erhält die Möglichkeit, sich in die Lage eines Angreifers zu versetzen und lernt so, dessen Denkweisen besser zu verstehen. In einem über den Browser benutzbaren Online-Editor können die Teilnehmer beispielsweise mit wenig Aufwand eigene Webseiten erstellen, um verschiedene Webangriffe selbst auszuprobieren.
+    </p>
+    <p>
+        Für den Schulungsleiter sind Monitoringfunktionen implementiert, welche ähnlich eines Honeypots funktionieren. Der Schulungsleiter kann so Live verfolgen, wie weit welcher Teilnehmer im Lösen der Aufgabe ist.
+    </p>
+    <p>
+        Viele demonstrierte Angriffe sind in der Praxis auf Kollaboration mit einem Opfer ausgelegt. Gängige Demonstrationsseiten (Webgoat et al.) implementieren hierbei nur den Server, was dazu führt, dass der Teilnehmer sich selbst angreifen muss. Unsere Implementierung zeigt einige Beispiele, in denen Bots im Hintergrund die Seiten der Nutzer aufrufen (z.B. mittels PhantomJS) und damit ein echtes Opfer simuliert wird. Darüber hinaus sind viele Seiten so aufgebaut, dass Teilnehmer untereinander kommunizieren können (z.B. Chats, Tauschseiten, ...), wodurch die Beispiele weniger statisch wirken, als gewöhnliche Demonstrationsseiten.
+    </p>
+    <p>
+        Der Vortrag erklärt den Aufbau und die Technik, welche sich hinter dem Lab befindet. Wir werden auf verschiedene Schwierigkeiten eingehen, welche sich beim Entwickeln zeigten, z.B.: Wie demonstriert man verschiedene Schwachstellen, mit denen sich der Server vollständig kompromittieren lässt, erhält aber gleichzeitig die Funktionalität für langsamere Teilnehmer? Wie zeigt man Angriffe auf kollaborativen Seiten, ohne allen Teilnehmern gleich die Lösung für alle Angriffe (durch für ihn sichtbare erfolgreiche Angriffe) zu verraten?
+    </p>
+</div></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>
