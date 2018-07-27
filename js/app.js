@@ -7,10 +7,9 @@
 //   }
 // }
 
-
 function initOSM(map) {
-  var center_conference = ol.proj.transform([7.635847,51.956765], 'EPSG:4326', 'EPSG:3857');
-  var center_evening_event = ol.proj.transform([7.635847,51.956765], 'EPSG:4326', 'EPSG:3857');
+  var center_conference = ol.proj.transform([7.611038,51.977210], 'EPSG:4326', 'EPSG:3857');
+  var center_evening_event = ol.proj.transform([7.611038,51.977210], 'EPSG:4326', 'EPSG:3857');
   var center = center_conference; // default
 
   if(map == "Evening Event"){
