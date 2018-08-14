@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/cfp/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/schedule/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/contact/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/about/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/sponsors/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/tickets/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/location/evening/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+<url>
+  <loc>https://owasp.github.io/german-owasp-day/location/conference/</loc>
+  <lastmod>2018-08-13T23:09:37+00:00</lastmod>
+</url>
+
+</urlset>
