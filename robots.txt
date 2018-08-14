@@ -1,4 +1,4 @@
 User-Agent: *
 Disallow:
 
-Sitemap: https://owasp.github.io/german-owasp-day/sitemap.txt
+Sitemap: https://owasp.github.io/german-owasp-day/sitemap.xml
