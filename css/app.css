@@ -20,6 +20,16 @@
   color: rgb(241, 244, 83);
 }
 
+.ticketbutton {
+    color:#00549e !important;
+    background-color:#FFFFFF;
+    margin-top:5px;
+}
+
+.ticketbutton:hover {
+      color:#FFFFFF !important;
+}
+
 .map{
   height: 30vh;
 }
