@@ -21,13 +21,15 @@
 }
 
 .ticketbutton {
-    color:#00549e !important;
-    background-color:#FFFFFF;
+    color:#FFFFFF !important;
+    background-color:#d85d33;
     margin-top:5px;
 }
 
 .ticketbutton:hover {
-      color:#FFFFFF !important;
+    color:#FFFFFF !important;
+    background-color:#d85d33 !important;
+
 }
 
 .map{
