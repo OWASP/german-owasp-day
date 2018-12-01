@@ -35,3 +35,21 @@
 .map{
   height: 30vh;
 }
+
+.slidelink, .youtubelink {
+  text-decoration:none !important;
+}
+.youtubelink {
+  padding-left:20px;
+}
+.linkicon {
+  padding-right:5px;
+}
+
+.linkdisabled {
+  color:#cccccc;
+}
+
+.linkdisabled:hover {
+  color:#cccccc;
+}
