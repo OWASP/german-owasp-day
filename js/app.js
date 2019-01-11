@@ -40,7 +40,7 @@ function initOSM(map) {
       anchorXUnits: 'fraction',
       anchorYUnits: 'fraction',
       opacity: 1.0,
-      src: '/german-owasp-day/img/icons/owasp_icon_small_filled.png'
+      src: '/img/icons/owasp_icon_small_filled.png'
     }))
   });
 
