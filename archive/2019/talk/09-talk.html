@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">How to break PDF security</h4>
+    <p>
+        <i>Jens Müller, Christian Mainka und Vladislav Mladenov</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+    PDF is the most widely used standard for office documents. Supported by many desktop applications, email gateways and web services solutions, are used in all sectors, including government, business and private fields. For protecting sensitive information, PDFs can be encrypted and digitally signed. Assumed to be secure for 15 years, our talk reveals how to break PDF Encryption and how to break PDF Signatures. We elaborated novel attacks leading to critical vulnerabilities in all PDF viewers, most notably in Adobe, Foxit, and Okular. As a result, an attacker can retrieve the plaintext of encrypted PDFs without knowing the password and manipulate the content of digitally signed PDFs arbitrarily while a victim is unable to detect this.<br></p>
+
+<p><b>Description</b></p>
+
+<p>The Portable Document Format (PDF) is the de-facto standard for document exchange worldwide. It is used to store sensitive information like contracts and health records. To protect this information PDF documents can be encrypted or digitally signed. Thus, confidentiality, authenticity, integrity, and non-repudiation can be achieved. In our research, we show that none of the PDF viewers achieve all of these goals by allowing an attacker to read encrypted content without the password or to stealthily modify the signed content.
+</p><p>
+We analyze the PDF encryption specification and show two novel techniques for breaking the confidentiality of encrypted documents. First, we abuse the PDF feature of partially encrypted documents to wrap the encrypted part of the document within attacker-controlled content and therefore, exfiltrate the plaintext once the document is opened by a legitimate user. Second, we abuse a flaw in the PDF encryption specification to arbitrarily manipulate encrypted content. The only requirement is that a single block of known plaintext is needed, and we show that this is fulfilled by design. Our attacks allow the recovery of the entire plaintext of encrypted documents by using exfiltration channels which are based on standard compliant PDF properties.
+</p><p>
+In addition, we present the first comprehensive security evaluation on digital signatures in PDFs. We introduce three novel attack classes which bypass the cryptographic protection of digitally signed PDF files allowing an attacker to spoof the content of a signed PDF. We analyzed 22 different PDF viewers and found 21 of them to be vulnerable, including prominent and widely used applications such as Adobe Reader DC and Foxit. We additionally evaluated eight online validation services and found six to be vulnerable.
+</p><p>
+All findings have been responsibly disclosed, and the affected vendors were supported during fixing the issues. Our research on PDF security is also available online at https://www.pdf-insecurity.org/.
+</p>
+</div>
+<hr/>
+<div class="te">
+
+</div></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>
