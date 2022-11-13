@@ -1,0 +1,35 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">Efail: Angriffe gegen Ende-zu-Ende-Verschlüsselung von Email-Kommunikation mit S/MIME und OpenPGP</h4>
+    <p>
+        <i>Christian Dresen</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+        E-Mail ist auch heute noch eines der wichtigsten Kommunikationsmittel im Internet. Um dieses Kommunikationsmittel abzusichern, wurden vor über 20 Jahren mit OpenPGP und S/MIME zwei Standards entwickelt, um Ende-zu-Ende-Verschlüsselung zu ermöglichen. Diese beiden wichtigen Technologien werden bis heute verwendet und bilden die Basis sicherer Ende-zu-Ende-verschlüsselter E-Mail-Kommunikation.
+    </p>
+    <p>
+        Wir haben diese Standards analysiert und festgestellt, dass die von beiden Standards verwendete Verschlüsselung Schwachstellen beinhaltet, die zu den Efail-Angriffen führte. Da S/MIME keine Message Authentication Codes (MAC) definiert, können Angreifer standardkonform S/MIME-verschlüsselte Emails aufbrechen. OpenPGP definiert zwar einen Modification Detection Code, der jedoch von einigen weit-verbreiteten Emailprogrammen nicht korrekt geprüft wurde, bzw. unter Umständen gar nicht gesetzt wurde. Auch hier konnten Angreifer die Emailverschlüsselung aushebeln.
+    </p>
+    <p>
+        Für die originalen Efail-PoC-Angriffe spielte HTML eine zentrale Rolle, da die Klartexte über ausgehende HTTP-Verbindungen (Backchannels) zum Angreifer exfiltriert wurden. In dieser Präsentation zeigen wir die grundlegende Schwachstellen in OpenPGP- und S/MIME-basierter Emailverschlüsselung und legen den Fokus auf die Gefahren von HTML auch außerhalb des Webs.
+    </p>
+    <p>
+        Diese Forschungsarbeit wurde auf dem 27th USENIX Security Symposium 2018 vorgestellt. [1]
+    </p>
+    <p>
+        <a href="https://www.usenix.org/conference/usenixsecurity18/presentation/poddebniak">[1] https://www.usenix.org/conference/usenixsecurity18/presentation/poddebniak</a>
+    </p>
+</div>
+<!--<hr/>
+<div class="te">
+    <p>
+        <i>Bio</i>
+    </p>
+    <p>
+    </p>
+</div>--></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>

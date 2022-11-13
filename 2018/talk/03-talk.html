@@ -1,0 +1,29 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">Don't Trust The Locals: Exploiting Persistent Client-Side Cross-Site Scripting in the Wild</h4>
+    <p>
+        <i>Marius Steffens, Ben Stock</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+        The Web has become highly interactive and an important driver for modern life, enabling information retrieval, social exchange, and online shopping. From the security perspective, Cross-Site Scripting (XSS) is one of the most nefarious attacks against Web clients. Research has long since focused on three categories of XSS: reflected, persistent, and DOM-based XSS. We argue, however, that this classification lacks a key threat in the modern Web: persistent Client-Side XSS.
+    </p>
+    <p>
+        In this talk, we not only provide an improved notion of the classes of XSS, but rather report on a real-world study which shows that of the Alexa Top 5,000 domains, around 2,000 make use of persisted data on the client. We conduct this study using a combination of taint tracking and a fully automated exploit generation pipeline. Doing so, we find that of these 2,000, over 20% make that use in an insecure way which enables an attacker to execute a persisted payload on every page load, allowing for nefarious long-term attacks such as JavaScript-based keyloggers, credential extraction from password managers, or cryptojacking. In addition, we analyze the end-to-end exploitability of the flaws we discovered based on two attacker models, showing that at least 70% of the sites with an insecure data flow can succesfully be infected with a malicious payload. We also discuss a number of real-world case studies to highlight the severity of this threat.
+    </p>
+    <p>
+        Based on our insights, we show that in many cases, the use case requires the execution of persisted JavaScript code. We identify four distinct classes of intended uses for the persisted data, and end our talk with a discussion of applicable countermeasures tailored for those cases. 
+    </p>
+</div>
+<!--<hr/>
+<div class="te">
+    <p>
+        <i>Bios</i>
+    </p>
+    <p>
+    </p>
+</div>--></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>

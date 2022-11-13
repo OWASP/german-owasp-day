@@ -1,0 +1,33 @@
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h4 class="modal-title">How API design impacts security: An empirical study of the PostMessage API</h4>
+    <p>
+        <i>Sebastian Lekies</i>
+    </p>
+</div>
+<div class="modal-body"><div class="te">
+    <p>
+        In the early days of the Web, the Web platform did not support cross-origin frame communication by-default. Thus Web developers used various hacks such as the window.name property or fragment-based redirects to (insecurely) communicate between two frames. The PostMessage API has been designed to provide a standard way for frame-based communication that also addresses several security issues. However, usability has not been taken into account during the design phase. Hence, in practice   many implementations are insecure. 
+    <p>
+    </p>
+        In this talk, we provide insights into the real-world usage of the PostMessage API by presenting the results of an empirical study. Thereby, the study covers two aspects:
+    <p>
+    </p>
+        1.) An analysis of the security checks related to PostMessage handlers<br/>
+        2.) An analysis of security-sensitive actions handlers conduct based on potentially attacker-controllable inputs
+    <p>
+    </p>
+        The results of the study show that most security checks are implemented incorrectly. Furthermore, we will demonstrate that many handlers conduct security critical actions that can be abused by malicious actors. These results suggest that the PostMessage API has a couple of severe design flaws that make it hard for developers to use it securely. Hence, we propose a better implementation that avoids the identified issues. What we learn from this exercise is that usable API design matters and that design choices have a big impact on the real-world security of an application. Usable security research will become more and more important in the future for designing secure APIs, libraries and frameworks. In order to support these efforts, we will provide a first set of recommendations and best practices.
+    </p>
+</div>
+<!--<hr/>
+<div class="te">
+    <p>
+        <i>Bio</i>
+    </p>
+    <p>
+    </p>
+</div>--></div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+</div>
