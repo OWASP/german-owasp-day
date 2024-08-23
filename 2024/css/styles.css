@@ -11231,3 +11231,17 @@ header.masthead h1, header.masthead .h1 {
   height: 100px;
   border-radius: 8px;
 }
+
+.iframe-rwd  {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  pointer-events: none;
+  }
+  .iframe-rwd iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  }
