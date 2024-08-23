@@ -11245,3 +11245,7 @@ header.masthead h1, header.masthead .h1 {
   left: 0;
   width: 100%;
   }
+
+.location-list {
+  list-style: none;
+}
