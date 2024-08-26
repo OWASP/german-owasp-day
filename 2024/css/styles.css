@@ -59,8 +59,8 @@
   --bs-border-radius-xl: 1rem;
   --bs-border-radius-2xl: 2rem;
   --bs-border-radius-pill: 50rem;
-  --bs-link-color: #f4623a;
-  --bs-link-hover-color: #c34e2e;
+  --bs-link-color: white;
+  --bs-link-hover-color: rgb(var(--bs-secondary-rgb));
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
 }
@@ -10482,7 +10482,7 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: rgb(var(--bs-primary-rgb));
   opacity: 1;
 }
 
@@ -10508,10 +10508,10 @@ hr.divider-light {
   padding: 0.75rem 0;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: rgb(var(--bs-primary-rgb)) !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+   color: rgb(var(--bs-primary-rgb)) !important;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -10555,7 +10555,7 @@ hr.divider-light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/1685607321751.jpeg");
+  background: linear-gradient(to bottom, rgba(99, 102, 110, 0.6) 50%, rgba(99, 102, 110, 0.9) 100%), url("../assets/img/BackgroundHeader.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10761,7 +10761,7 @@ header.masthead h1, header.masthead .h1 {
 .event-schedule-area-two .tab-content .table tbody tr td .event-wrap h3 a {
   font-size: 20px;
   line-height: 20px;
-  color: #cf057c;
+  color: rgb(var(--bs-primary-rgb));
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -10838,4 +10838,18 @@ header.masthead h1, header.masthead .h1 {
 
 .location-list {
   list-style: none;
+}
+.program-btn {
+  color: white;
+  width: 8rem;
+  border-radius: 10rem;
+  border-color: rgb(var(--bs-primary-rgb));
+  background-color: rgb(var(--bs-primary-rgb));
+}
+.download-program-btn {
+  color: white;
+  background-color: rgb(var(--bs-primary-rgb));;
+}
+.social-media-icon {
+  color: white;
 }
