@@ -10853,3 +10853,6 @@ header.masthead h1, header.masthead .h1 {
 .social-media-icon {
   color: white;
 }
+.disabled-link {
+  cursor: not-allowed;
+}
