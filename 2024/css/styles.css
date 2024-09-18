@@ -10462,7 +10462,7 @@ body {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 .text-white-75 {
@@ -10855,4 +10855,10 @@ header.masthead h1, header.masthead .h1 {
 }
 .disabled-link {
   cursor: not-allowed;
+}
+
+.sponsor-table-hd {
+  font-size: 1.563rem;
+  font-family: "Barlow";
+  padding-bottom: 2rem;
 }
