@@ -486,7 +486,7 @@
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkEight"
                       aria-expanded="false" aria-controls="talkEight">
-                      Geschichten vom Debian OpenSSL-Bug und anderen öffentlichen privaten Schlüsseln
+                      The Debian OpenSSL bug and other Public Private Keys
                     </button>
                   </h2>
                   <div id="talkEight" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
@@ -505,16 +505,16 @@
                       <div class="tab-content pt-3" id="tab-content">
                         <div class="tab-pane active" id="acc-11-simple-tabpanel-0" role="tabpanel"
                           aria-labelledby="acc-11-simple-tab-0">
-                          <p>Public-Key-Kryptographie und kryptographische Protokolle wie TLS und SSH sind zentrale Bausteine für sichere Internet-Technologien. Zu den gravierendsten Sicherheitslücken in kryptographischen Systemen gehören solche, die eine Kompromittierung von privaten Schlüsseln erlauben.</p>
-                          <p>Mithilfe des Open-Source-Tools badkeys, das der Vortragende entwickelt hat, lassen sich kryptographische Schlüssel auf bekannte Schwachstellen prüfen. Das Tool sorgte bereits für einige signifikante Funde, um die es im Vortrag gehen soll.
+                          <p>In early 2024, hundreds of DKIM setups still used cryptographic keys vulnerable to a bug from 2008 in Debian's OpenSSL package. Vulnerable hosts included prominent names like Cisco, Oracle, Skype, and Github.</p>
+                          <p>In 2022, it was discovered that printers generated TLS keys that could be trivially broken with an over 300-year-old algorithm by Pierre de Fermat.
                           </p>
-                          <p>So stellte sich heraus, dass noch im Jahr 2024 hunderte DKIM-Setups für den Debian-OpenSSL-Bug aus dem Jahr 2008 verwundbar waren. Zu den verwundbaren Hosts gehörten bekannte Namen wie Cisco, Oracle, Skype und Github. Mit Hilfe eines hunderte Jahre alten Faktorisierungsalgorithmus ließen sich die privaten Schlüssel der TLS-Interfaces von Druckern von Canon und Fujifilm knacken.
+                          <p>Vulnerabilities in public/private key generation are amongst the most severe ones in cryptographic software. The speaker has developed the open-source tool <a href="https://badkeys.info/">badkeys</a>, a tool to check cryptographic keys for known vulnerabilities. The talk will cover some of the findings and plans for future improvements in badkeys.
                           </p>
                           <p>Um diese und andere Sicherheitsprobleme mit kompromittierten kryptographischen Schlüsseln, sowie einige Pläne für die Zukunft von badkeys, soll es im Vortrag gehen.
                           </p>
                         </div>
                         <div class="tab-pane" id="acc-11-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-11-simple-tab-1">
-                          <p><strong>Hanno Böck</strong> arbeitet als freier Journalist und IT-Sicherheitsforscher. Er hat in der Vergangenheit bereits zahlreiche Sicherheitslücken aufgedeckt, darunter den ROBOT-Angriff, Schwachstellen in STARTTLS, und Implementierungsfehler in AES-GCM.</p>
+                          <p><strong>Hanno Böck</strong> works as a freelance journalist and IT security researcher. In the past, he has uncovered numerous security vulnerabilities, including the ROBOT attack, weaknesses in STARTTLS, and implementation flaws in AES-GCM.</p>
                         </div>
                       </div>
                     </div>
@@ -676,7 +676,7 @@
                   <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkThirteen"
                       aria-expanded="false" aria-controls="talkThirteen">
-                      SSRF: Angriffe, Verteidigung und Status Quo
+                      SSRF: Attacks, Defense and Status Quo
                     </button>
                   </h2>
                   <div id="talkThirteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
@@ -695,11 +695,13 @@
                       <div class="tab-content pt-3" id="tab-content">
                         <div class="tab-pane active" id="acc-16-simple-tabpanel-0" role="tabpanel"
                           aria-labelledby="acc-16-simple-tab-0">
-                          <p>Server-Side Requests werden von Webapps verwendet, um Daten von anderen Servern abzurufen, z.B. für die Vorschau von Links. Sie können jedoch von Angreifern exploited werden, um auf interne Ressourcen oder Dienste zuzugreifen, die nicht für die Öffentlichkeit bestimmt sind. Dies wird als Server-Side Request Forgery (SSRF) bezeichnet. Der Talk erklärt was SSRF ist, wie es zum Exploiten von Servern verwendet wird und wie man sich dagegen verteidigen kann, was komplexer ist als man denkt. Anschließend besprechen wir unsere Forschungsergebnisse zur Häufigkeit von Gegenmaßnahmen "in the wild".
+                          <p>Web apps use Server-Side Requests to request data from other servers, e.g., for link previews. However, they are exploited by attackers who might request internal resources or non-public services. This attack is called Server-Side Request Forgery (SSRF).
                           </p>
+                          <p>The talk explains what SSRF is, how it can be used to exploit servers, and how to defend against it, which is surprisingly complex.</p>
+                          <p>Finally, we will discuss our research on the prevalence of countermeasures in the wild.</p>
                         </div>
                         <div class="tab-pane" id="acc-16-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-16-simple-tab-1">
-                          <p><strong>Malte Wessels</strong> ist seit Sommer '22 Doktorand am Institut für Anwendungssicherheit der TU Braunschweig und forscht dort zu Web Security und Privacy. Außerdem ist er Beisitzender des gemeinnützigen Datenanfragen.de e.V.</p>
+                          <p><strong>Malte Wessels</strong> has been a PhD student at the Institute for Application Security at TU Braunschweig since summer '22, where he conducts research on web security and privacy. He is also chairman of the non-profit organization Datenanfragen.de e.V.</p>
                         </div>
                       </div>
                     </div>
