@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>German OWASP Day 2025</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap Icons-->
+        <link href="css/bootstrap/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#page-top">German OWASP Day 2025</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0">
+                      <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section bg-primary" id="trainings">
+          <div class="container px-4 px-lg-5" style="padding-top: 3rem;">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+              <h2 class="text-white text-center mb-4">Talks</h2>
+              <div class="accordion" id="talkAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#keynote"
+                      aria-expanded="false" aria-controls="keynote">
+                      Keynote: Code Dark Age
+                    </button>
+                  </h2>
+                  <div id="keynote" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-26-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-26-simple-tabpanel-0" role="tab" aria-controls="acc-26-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-26-simple-tab-1" data-bs-toggle="tab" href="#acc-26-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-26-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3" id="tab-content">
+                        <div class="tab-pane active" id="acc-26-simple-tabpanel-0" role="tabpanel" aria-labelledby="acc-26-simple-tab-0">
+                          <p>Generative AI is supposed to make our lives easier. But what if it's really just coding us straight into a new Dark Age? We hand over our systems to AI agents, only to watch them invent backdoors nobody asked for. Developers are left with the glamorous job of bug janitors, while attackers get new exploits. It's hard not to feel like we are front-row spectators to the collapse of digital civilization. This talk shows how these risks are multiplying, and how the public debate around security often misses the point, making it even harder to fix what is broken. Maybe what we are really witnessing is the world's biggest live demo of the digital apocalypse. But sometimes you have to watch everything burn down before you can rebuild it better.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-26-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-26-simple-tab-1">
+                          <p><strong>Eva Wolfangel</strong> is a journalist, author, speaker and moderator. She works for ZEIT, Deutschlandfunk, Technology Review, Reportagen and many others.  Her focus is on combining complex topics with creative storytelling to reach a broad audience.</p>
+                          <p>In 2020 she received the German Reporterprize, in 2019/20 she was a Knight Science Journalism Fellow at MIT in Boston, in 2018 she was awarded European Science Journalist of the Year. She speaks and writes on topics such as artificial intelligence, virtual reality, cybersecurity and the ethics of technology.</p>
+                          <p>Her book "Ein falscher Klick" about cybercrime and cyberwar was published in fall 2022 with Penguin Randomhouse.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkOne"
+                      aria-expanded="false" aria-controls="talkOne">
+                      The Surprising Complexity of Finding Known Vulnerabilities
+                    </button>
+                  </h2>
+                  <div id="talkOne" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-4-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-4-simple-tabpanel-0" role="tab" aria-controls="acc-4-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-4-simple-tab-1" data-bs-toggle="tab" href="#acc-4-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-4-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-4-simple-tabpanel-0" role="tabpanel" aria-labelledby="acc-4-simple-tab-0">
+                          <p>With the increasing reliance on third-party software components, ensuring their security against known vulnerabilities has become a daily challenge for individuals and organizations. Despite the availability of a variety of tools and databases, we found all of them fall
+                            short when applied to real-world scenarios - raising questions about their effectiveness, generalizability, and practical utility.</p>
+                          <p>Starting from our perspective as penetration testers, we identified three main problems with existing solutions in vulnerability identification:</p>
+                          <ul>
+                            <li>Accuracy and completeness of results - Many tools exhibit limited precision and recall, often depending on a single data source (e.g. NVD) and overlooking critical indicators such as known exploits or patch history.</li>
+                            <li>Rigid input requirements - Most solutions enforce strict formatting constraints (e.g., requiring exact CPEs), creating usability and reliability issues when dealing with diverse or incomplete data.</li>
+                            <li>Lack of usable outputs - The inability to meaningfully export or integrate results into broader workflows hampers both manual and automated security processes.</li>
+                          </ul>
+                          <p>In order to solve these challenges, we developed the open-source tool search_vulns. It leverages information from multiple data sources and uses text comparison techniques and CPEs in combination to increase accuracy in software identification. Due to this approach, it can even automatically generate CPEs that have yet to be published. Together with its custom logic for version comparison, this further enhances the quality of results. Finally, search_vulns provides a fine-granular export of results in different formats.</p>
+                          <p>In conclusion, this talk aims to simplify the surprising complexity of finding known vulnerabilities in software. To do so, we discuss common challenges in mapping software names to CPEs, e.g. for product rebrandings, single-version vulnerabilities and yet to be published software versions. In addition, we present an approach using multiple data  sources in combination to enrich CVE data with information on known exploits, likelihood of exploitability (EPSS) and other data sources. Finally, we present search_vulns as open-source tool.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-4-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-4-simple-tab-1">
+                          <p><strong>Dustin Born</strong> is a senior security consultant and penetration tester at usd AG, an information security company based in Germany with the mission #moresecurity. He focuses on pentests of web applications, cloud environments and mobile applications.</p>
+                          <p><strong>Matthias Göhring</strong> is security consultant and Head of usd HeroLab, the department specializing in technical security assessments. In addition, he holds lectures at TU Darmstadt and Hochschule Darmstadt on ethical hacking and penetration testing. In previous scientific work, he focused on network and communication security as well as software security.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTwo"
+                      aria-expanded="false" aria-controls="talkTwo">
+                      Attacking PDFs: From XFA Forms to Signature Exploits
+                    </button>
+                  </h2>
+                  <div id="talkTwo" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-5-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-5-simple-tabpanel-0" role="tab" aria-controls="acc-5-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-5-simple-tab-1" data-bs-toggle="tab" href="#acc-5-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-5-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-5-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-5-simple-tab-0">
+                          <p>PDFs are considered static and trustworthy - but in fact, they are far more dynamic than most users realize. With XML Forms Architecture (XFA), Adobe introduced a powerful extension back in 1999 that is used in millions of forms worldwide.</p>
+                          <p>It allows dynamic layouts, scripts, network communication, and even file access - opening up a huge, previously unexplored attack surface. In addition, PDFs support JavaScript functions and actions that can dynamically change the contents of PDFs. This enables various attacks on digital signatures. The presentation for German OWASP Day is divided into two main parts.</p>
+                          <ul>
+                            <li> In the first part of the presentation, we show how PDFs can be cleverly used for attacks that allow content to be reloaded, files to be read, or applications to be crashed in a targeted manner. For this, we use XML Forms Architecture (XFA), a powerful PDF feature that has received little attention in the security community to date. Using concrete examples and with the help of our XFA scanner tool, we will show that almost all PDF viewers examined are vulnerable in at least one category (RCE, file inclusion, URL invocation, DoS).</li>
+                            <li>The second part of the presentation focuses on attacks on digital signatures in PDFs. To do this, we use the concept of dynamic content in PDFs. We demonstrate how the PDF and XFA specifications can be used to manipulate content in signed documents after or even immediately before the signature is created. Surprisingly, this works both with and without JavaScript. We present various categories of attacks, show the role of actions and embedded code, and explain the countermeasures taken by PDF software manufacturers. The presentation thus provides a better understanding of the hidden dangers of dynamic PDF functions and offers ideas on how to deal with legacy issues in security-critical applications.</li>
+                          </ul>
+                        </div>
+                        <div class="tab-pane" id="acc-5-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-5-simple-tab-1">
+                          <p><strong>Sören Borgstedt</strong> is a research assistant and doctoral candidate working with Vladislav Mladenov at the NDS Chair at RUB. His research focuses on document security, particularly PDF documents. He holds a master's degree in computer science from TU Dortmund.</p>
+                          <p><strong>Titus Vollbracht</strong> is a research assistant and doctoral candidate working with Christian Mainka at the ROSES Chair at BUW.  His research focuses on the security of digital documents. He already dealt with dynamic PDF files in his master's thesis at RUB and is now expanding on this topic in his doctoral thesis.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkThree"
+                      aria-expanded="false" aria-controls="talkThree">
+                        From Startup to Scale: Choosing the Right AppSec Path
+                    </button>
+                  </h2>
+                  <div id="talkThree" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-6-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-6-simple-tabpanel-0" role="tab" aria-controls="acc-6-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-6-simple-tab-1" data-bs-toggle="tab" href="#acc-6-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-6-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-6-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-6-simple-tab-0">
+                          <p> Security teams often inherit their organisation's structure - for better or worse. The way you design your AppSec programme and choose your team topology can determine whether security becomes a trusted enabler or a frustrating bottleneck.</p>
+                          <p>In this story-driven session, we follow Alex, who begins as the only security person in a 50-person startup. At first, Alex builds a centralised AppSec team, finding it effective for control but slow to scale. As the company grows to hundreds of employees, bottlenecks appear, and burnout looms. Alex experiments with embedded security engineers, Security as a Platform, and a Security Champions network, learning the trade-offs of each approach along the way.</p>
+                          <p>Through Alex's five-year journey, attendees will see how AppSec needs change with company growth - and how the right choice at the right time can make all the difference.</p>
+                          <p>Main Points & Concepts:</p>
+                          <ul>
+                            <li>Why team topology directly impacts AppSec scalability, speed, and coverage.</li>
+                            <li>The four common AppSec models:</li>
+                              <ul>
+                                <li>Centralised: strong control, slow scaling.</li>
+                                <li>Embedded: deep product integration, higher cost.</li>
+                                <li>Platform: automation at scale, cultural shift needed.</li>
+                                <li>Security Champions: cultural reach, variable quality.</li>
+                              </ul>
+                            <li>How to transition between models without losing momentum.</li>
+                            <li>Hybrid approaches that combine strengths of multiple models.</li>
+                          </ul>
+                          <p>What's New/Different:</p>
+                          <p>Instead of a static pros/cons list, this talk uses a narrative to bring these models to life. Attendees experience the evolving challenges and decisions of one security professional as their organisation grows from startup to global enterprise. Engaging visuals illustrate how different team topologies play out in practice.</p>
+                          <p>Actionable Takeaways:</p>
+                            <ul>
+                              <li>A framework to select the right AppSec topology for your organisation.</li>
+                              <li>Practical steps to evolve your security model without burning out teams.</li>
+                              <li>How to measure impact and build trust with engineering.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane" id="acc-6-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-6-simple-tab-1">
+                          <p><strong>Javan Rasokat</strong> is a DevOps Security Specialist, where he began five years ago leading Product Security in Central Europe and now supports products globally, driving standardisation of security controls. Formerly a full-stack engineer, he lectures at DHBW University and has spoken at DEFCON and OWASP Global AppSec.</p>
+                          <p><strong>Vanessa Sutter</strong> is a Senior Security Operations Specialist with a background in full-stack engineering. She led secure practices within her team, later shaping the company's Bug Bounty Program. She also trains apprentices, teaches at a vocational school, and serves as an expert for Switzerland's final apprenticeship project (IPA).</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkFour"
+                      aria-expanded="false" aria-controls="talkFour">
+                        How the EU created Electronic Invoices without considering Security
+                    </button>
+                  </h2>
+                  <div id="talkFour" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-7-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-7-simple-tabpanel-0" role="tab" aria-controls="acc-7-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-7-simple-tab-1" data-bs-toggle="tab" href="#acc-7-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-7-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-7-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-7-simple-tab-0">
+                          <p>Companies within the European Union are increasingly required to be able to issue and process electronic invoices according to EU standards. For example, since January 2025, companies in Germany have been required to support electronic invoices in B2B contexts.</p>
+                          <p>While it is desirable to standardize invoice data formats, the EU standards have severe problems. They are overly and needlessly complicated, and security was not given much consideration. An unfortunate design choice to use a problematic "standard" (XSLT 2/3) only supported by a single implementation with inherent security problems makes security vulnerabilities in electronic invoicing software even more likely.</p>
+                          <p>The EU standard allows multiple redundant XML data formats to encode electronic invoices. XML processing has several well-known, inherent security problems, most notably file exfiltration via XML eXternal Entity (XXE) attacks.</p>
+                          <p>It appears that XML security was not considered during the creation of these standards. Neither the standardization documents nor the information found on various government and EU web pages contain any information about avoiding XML security flaws.</p>
+                          <p>Therefore, unsurprisingly, security vulnerabilities in software processing these electronic invoices are very common.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-7-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-7-simple-tab-1">
+                          <p><strong>Hanno Böck</strong> works as a freelance journalist and IT security researcher. In the past, he has uncovered numerous security vulnerabilities, including the ROBOT attack, weaknesses in STARTTLS, and implementation flaws in AES-GCM.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkFive"
+                      aria-expanded="false" aria-controls="talkFive">
+                      LangSec for AppSec folks
+                    </button>
+                  </h2>
+                  <div id="talkFive" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-8-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-8-simple-tabpanel-0" role="tab" aria-controls="acc-8-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-8-simple-tab-1" data-bs-toggle="tab" href="#acc-8-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-8-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-8-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-8-simple-tab-0">
+                          <p>Die von LangSec beschrieben grundlegenden Sicherheitsprinzipien erklären die Hauptursachen vieler Sicherheitslücken und wie man diese beheben kann. LangSec sieht die anhaltende Schwachstellen-Epidemie in Software als eine Folge der ad-hock Entwicklung von Code, der Ein- und Ausgaben verarbeitet. Gemäß LangSec besteht der Schlüssel zur Entwicklung vertrauenswürdiger Software, die mit potenziell bösartigen Eingaben korrekt umgeht, darin alle gültigen oder erwarteten Eingaben und Ausgaben als formale Sprache zu behandeln. Dementsprechend müssen die Routinen zur Verarbeitung von Eingaben und Ausgaben als Parser beziehungsweise Unparser für diese Sprache behandelt werden und auch dementsprechend entwickelt werden. In diesem Vortrag möchte ich LangSec und die Implikationen für unsere tägliche Arbeit in AppSec vorstellen ohne in die Tiefen der Theoretischen Informatik und des Compilerbaus abzudriften.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-8-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-8-simple-tab-1">
+                          <p><strong>Lars Hermerschmidt</strong> war mal Pentester und hat sich gefragt, warum er überall XSS findet. Daraufhin hat er sich in seiner Doktorarbeit damit befasst, das Injection Problem allgemein zu lösen. Seit 2016 bringt er Entwickler:innen dieses und anderes AppSec-Wissen näher als Trainer, Coach oder aktuell als Security Champion Programm Lead bei der REWE digital.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkSix"
+                      aria-expanded="false" aria-controls="talkSix">
+                      All the WAF power to the devs - why it reduces friction...and where it backfires
+                    </button>
+                  </h2>
+                  <div id="talkSix" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-9-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-9-simple-tabpanel-0" role="tab" aria-controls="acc-9-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-9-simple-tab-1" data-bs-toggle="tab" href="#acc-9-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-9-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-9-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-9-simple-tab-0">
+                          <p>Web application firewalls are often seen as a hindrance when going live, as perimeter WAFs can clash with GitOps-driven platforms. Empowering development teams with an application-centric WAF setup allows them to run and tune the WAF throughout the entire development lifecycle. It also enables full integration into any CI/CD pipeline or GitOps approach, reducing late surprises during deployment.</p>
+                          <p>In this talk, we demonstrate the application-centric approach with Envoy Proxy, OWASP Coraza, and the OWASP Core Rule Set (components are examples and interchangeable; focus is on principles and selection criteria), and take you along our real-world journey - highlighting the challenges and lessons learned. What you'll take away: We show where this reusable reference design reduces friction and where it backfires, and we outline the governance and guardrails needed to make it work in practice.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-9-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-9-simple-tab-1">
+                          <p><strong>Lukas Funk</strong> has 10+ years of experience designing, integrating, and operating web application firewalls. As a Security Solution Architect at United Security Providers, he helps organizations turn WAF/WAAP into a foundational building block of web application defense. Lukas focuses on OWASP-aligned controls, policy-as-code, and GitOps for Kubernetes to reduce false positives and release friction.</p>
+                          <p><strong>Danilo Siscaro</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkSeven"
+                      aria-expanded="false" aria-controls="talkSeven">
+                      Passkeys einführen - Strategien und Herausforderungen für Entwickler:innen
+                    </button>
+                  </h2>
+                  <div id="talkSeven" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-10-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-10-simple-tabpanel-0" role="tab" aria-controls="acc-10-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-10-simple-tab-1" data-bs-toggle="tab" href="#acc-10-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-10-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-10-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-10-simple-tab-0">
+                          <p>Die Zukunft der Authentifizierung ist passwortlos - Passkeys sind die zentrale Technologie. Dieser Vortrag unterstützt Entwickler:innen bei der Einführung von Passkeys im Unternehmen und hilft bei der Entscheidung zwischen Eigenentwicklung, SDK oder Passkey-as-a-Service-Lösungen. Sie lernen, wie Recovery-Flows und Fallback-Mechanismen nutzerfreundlich gestaltet werden, wie Passkeys sicher geräte- und plattformübergreifend geteilt werden können und welche Sicherheitsstufe sie gegenüber traditionellen Verfahren bieten. Praxisnahe User Stories und konkrete Beispiele zeigen typische Stolperfallen und helfen Ihnen, die Vorteile von Passkeys optimal zu kommunizieren.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-10-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-10-simple-tab-1">
+                          <p><strong>Martina Kraus</strong> ist Expertin für Websicherheit und Application Security Engineer. Sie integriert Sicherheits-Best-Practices in alle Phasen der Softwareentwicklung. Als Google Developer Expert (GDE) teilt sie ihr Wissen auf internationalen Konferenzen und schreibt gerade an einem Buch zur Authentifizierung und Autorisierung in Web-Applikationen.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkEight"
+                      aria-expanded="false" aria-controls="talkEight">
+                      Continuous Vulnerability Scanning with OWASP secureCodeBox
+                    </button>
+                  </h2>
+                  <div id="talkEight" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-11-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-11-simple-tabpanel-0" role="tab" aria-controls="acc-11-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-11-simple-tab-1" data-bs-toggle="tab" href="#acc-11-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-11-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-11-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-10-simple-tab-0">
+                          <p>The OWASP secureCodeBox project aims to provide a unified way to run and automate open-source scanning tools like nmap, nuclei, zap, ssh-audit, and sslyze to continuously scan the code and infrastructure of entire organizations.</p>
+                          <p>This allows setting up automated scans that will regularly scan internal networks and internet-facing systems for vulnerabilities. The SCB also allows defining rules to automatically start more in-depth scans based on previous findings, e.g., to start a specialized SSH scan if a port scan discovers an open SSH port.</p>
+                          <p>Scan results can be uniformly handled with prebuilt hooks, e.g. to send out alerts via messaging tools, or to ingest the findings into vulnerability management systems like OWASP DefectDojo.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-11-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-10-simple-tab-1">
+                          <p><strong>Jannik Hollenbach</strong> is one of the project leads of the OWASP secureCodeBox and newly also the co-project lead of the OWASP JuiceShop project. In his work life, he's working on writing, operating, and securing software, often in and around Kubernetes.</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkNine"
+                      aria-expanded="false" aria-controls="talkNine">
+                      Phishing for Passkeys: Eine Analyse von WebAuthn und CTAP
+                    </button>
+                  </h2>
+                  <div id="talkNine" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-12-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-12-simple-tabpanel-0" role="tab" aria-controls="acc-12-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-12-simple-tab-1" data-bs-toggle="tab" href="#acc-12-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-12-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-12-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-12-simple-tab-0">
+                          <p>Mit WebAuthn sollte das Passwort im Web abgelöst werden: einheitliche, sichere, handhabbare Authentifizierung für alle! Großes Alleinstellungsmerkmal sollte die Unmöglichkeit von Phishing-Angriffen sein. Mit der Weiterentwicklung in Form von Passkeys wurden einige Usability-Verbesserungen vorgenommen, um die breite Adaption zu ermöglichen. Dabei wurden einige Sicherheitsprinzipien von WebAuthn aufgeweicht.</p>
+                          <p>Dieser Vortrag beschäftigt sich mit der Sicherheit von Passkeys, insbesondere der Möglichkeit für Phishing-Angriffe. Wir erläutern die Möglichkeiten eines Angreifers, mittels Spear Phishing Zugang zu Passkey Credentials zu bekommen, und welche Voraussetzung dafür gegeben sein muss. Außerdem demonstrieren wir eine praktische Möglichkeit in begrenztem Rahmen für solche Angriffe und diskutieren Gegenmaßnahmen.</p>
+                          <p>Die Teilnehmenden lernen, welche Sicherheitsprinzipien von WebAuthn für Passkeys weiterhin gelten, und welche nicht. Sie erfahren, wieso Passkeys nicht mehr komplett phishing-proof sind und wie sie diese Abwägung für den eigenen Einsatz von Passkeys bewerten können.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-12-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-12-simple-tab-1">
+                          <p><strong>Michael Kuckuk</strong> ergänzt sein Masterstudium der Informatik an der Technischen Uni München durch seine praktische Arbeit als werkstudentischer Fullstack Entwickler bei inovex. Während sein tägliches Brot zwar Themen wie Code-Qualität oder UX sind, achtet er stets darauf, dass Privacy und Security nicht zu kurz kommen.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTen"
+                      aria-expanded="false" aria-controls="talkTen">
+                      OWASP Cumulus: Threat Modeling the Ops of DevOps
+                    </button>
+                  </h2>
+                  <div id="talkTen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-13-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-13-simple-tabpanel-0" role="tab" aria-controls="acc-13-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-13-simple-tab-1" data-bs-toggle="tab" href="#acc-13-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-13-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-13-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-13-simple-tab-0">
+                          <p>In this presentation, we will highlight how threat modeling, as a proactive measure, can increase security in DevOps projects.</p>
+                          <p>We will introduce OWASP Cumulus, a threat modeling card game designed for threat modeling the Ops part of DevOps processes. This game (in combination with similar games like Elevation of Privilege or OWASP Cornucopia) enables DevOps teams to take the security responsibility for their project in a lightweight and engaging way.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-13-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-13-simple-tab-1">
+                          <p>In his role as a Senior Consultant at TNG Technology Consulting, <strong>Christoph Niehoff</strong> develops software products for his clients on a daily basis. As a full-stack developer, he lives and breathes DevOps, overseeing all steps of the development cycle. The security of the products is particularly close to his heart. He is the project lead of the threat modeling card game OWASP Cumulus.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkEleven"
+                      aria-expanded="false" aria-controls="talkEleven">
+                      The Automation Illusion? What Machines Can't Do in Threat Modeling
+                    </button>
+                  </h2>
+                  <div id="talkEleven" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-14-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-14-simple-tabpanel-0" role="tab" aria-controls="acc-14-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-14-simple-tab-1" data-bs-toggle="tab" href="#acc-14-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-14-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-14-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-14-simple-tab-0">
+                          <p>Threat modeling stands at a critical juncture. While essential for creating secure systems, it remains mostly manual, handcrafted, and often too slow for today's development cycles. At the same time, automation and AI offer new levels of speed and scalability— but how much can we rely on them?</p>
+                          <p>This talk explores the tension between automation and human expertise in threat modeling. We'll dissect the traditional threat modeling process—scoping, modeling, threat identification, risk analysis, and mitigation—and perform a step-by-step gap analysis to identify what can realistically be automated today, what cannot, and why.</p>
+                          <p>We'll dive into:</p>
+                          <ul>
+                            <li>Current tooling: Review the AI threat modeling tools that handle diagram-based automation, template-driven modeling, risk scoring, and pattern matching.</li>
+                            <li>Emerging AI use cases: automatically generating threat models from architecture diagrams, user stories, or use case descriptions; providing AI-assisted mitigation suggestions; and conducting NLP-driven threat analysis.</li>
+                            <li>Limitations and risks: False confidence, hallucinations, model bias, ethical accountability, and the challenge of modeling new or context-specific threats.</li>                  
+                          </ul>
+                          <p>We will ground this analysis with examples from organizations and academic research that aim to scale threat modeling without compromising depth or quality, drawing parallels to how other activities, such as SAST and DAST scanning, evolved.</p>
+                          <p>Attendees will walk away with a practical roadmap for integrating automation without undermining the human insight threat modeling still requires.</p>
+                          <p>This talk isn't a tool pitch. It's a candid, experience-based view of where automation can meaningfully accelerate threat modeling—and where the human must remain firmly in the loop.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-14-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-14-simple-tab-1">
+                          <p><strong>Georges Bolssens</strong> began coding in the early 1990s and turned to application security in 2017. A passionate teacher and seasoned developer, he is known for making complex topics accessible through clear analogies. As an Application Security Consultant at Toreon, Georges helps clients build robust threat models for their digital assets. He has also delivered threat modeling trainings at OWASP, Black Hat, and Troopers, sharing his expertise with audiences worldwide.</p>
+                          <p><strong>Sebastien Deleersnyder</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTwelve"
+                      aria-expanded="false" aria-controls="talkTwelve">
+                      tbd
+                    </button>
+                  </h2>
+                  <div id="talkTwelve" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-15-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-15-simple-tabpanel-0" role="tab" aria-controls="acc-15-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-15-simple-tab-1" data-bs-toggle="tab" href="#acc-15-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-15-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-15-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-15-simple-tab-0">
+                          <p>tbd</p>
+                        </div>
+                        <div class="tab-pane" id="acc-15-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-15-simple-tab-1">
+                          <p><strong>tbd</strong></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkThirteen"
+                      aria-expanded="false" aria-controls="talkThirteen">
+                      Extract: A PHP Foot-Gun Case Study
+                    </button>
+                  </h2>
+                  <div id="talkThirteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-16-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-16-simple-tabpanel-0" role="tab" aria-controls="acc-16-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-16-simple-tab-1" data-bs-toggle="tab" href="#acc-16-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-16-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-16-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-16-simple-tab-0">
+                          <p>Do you always read the documentation before using a function in your languages' standard library? This talk explores the attack surface of a special feature in PHP which is easy to misuse with unforseen consequences. The `extract` function allows to replace the value of local variables named after the keys in an array. Calling it with user-controlled input allows the attacker to change arbitrary variables in the program. The documentation warns against the dangers of using it with untrusted data, but our large-scale analysis on 28.325 PHP projects from GitHub shows, that this warning is ignored.</p>
+                          <p>The talk walks through the process of identifing `extract`-based vulnerabilities and how they might have ended up the way they are by looking at the surrounding code. After introducing different levels of attacker-control guided by concrete exploits, listeners gain an intuition on what to look out for while reviewing code.</p>
+                          <p>Attending this talk, the audience will learn:</p>
+                          <ul>
+                            <li>Rich ways users have control over input in PHP.</li>
+                            <li>How to exploit insecure calls to `extract` given multiple real-world case-studies from the dataset of open source projects from GitHub.</li>
+                            <li>Tips on how to avoid this and similar threats in new and legacy code.</li>
+                            <li>Possible changes to PHP itself for risk reduction.</li>
+                          </ul>
+                        </div>
+                        <div class="tab-pane" id="acc-16-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-16-simple-tab-1">
+                          <p><strong>Jannik Hartung</strong> is a Ph.D candidate in the Institute for Application Security at the Technische Universität Braunschweig with work focussing on code analysis and vulnerability exploitation. He enjoys teaching hacking skills and the hacker's mindset to aspiring students in multiple security labs.</p>
+                          <p>Additionally, he is an active open source developer, currently maintaining the exploit development framework pwntools and contributing to other related tools like pwndbg and gdb as well as others. In his spare time, he is actively participating in Capture the Flag (CTF) IT-Security competitions in multiple international teams. When he's not in front of a screen, he likes bouldering and singing.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkFourteen"
+                      aria-expanded="false" aria-controls="talkFourteen">
+                      MCP security hot potato: how to stay secure integrating external tools to your LLM
+                    </button>
+                  </h2>
+                  <div id="talkFourteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-17-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-17-simple-tabpanel-0" role="tab" aria-controls="acc-17-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-17-simple-tab-1" data-bs-toggle="tab" href="#acc-17-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-17-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-17-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-17-simple-tab-0">
+                          <p>Model Context Protocol (MCP) is the latest hot topic in cybersecurity. Business wants it (AI is the new mantra), developers are excited (new toys, new code), and security teams are left to make it safe—often with already packed schedules. Let's treat it like just another Tuesday. Like many shiny new technologies (remember the early days of cloud?), MCP is being built with a “features first, security later” mindset. As a fresh piece of tech, it blends novel vulnerabilities with familiar, well-known ones. If you're an early adopter, it's important to accept that MCP and its current implementations are imperfect—and to be ready for that. In this talk, we'll dive into the real-world challenges companies are facing with MCP and equip you with practical remediations.</p>
+                          <p> We'll cover topics such as:
+                            <ul>
+                              <li>An introduction to the MCP protocol and its security considerations, including authentication</li>
+                              <li>Emerging vulnerabilities like prompt injections, tool poisoning, rug pull attacks, and cross-server tool shadowing</li>
+                              <li>Classic vulnerabilities that may resurface around MCP, based on recent CVEs</li>
+                              <li>Remediation strategies and available tooling</li>
+                            </ul>
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="acc-17-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-17-simple-tab-1">
+                          <p><strong>Mateusz Olejarka</strong> is a Principal Security Consultant. Over 10 years of experience in IT security. His main focus is web application penetration testing. He has performed more than 90 application security trainings. Previously worked as a software developer, building software for the financial sector. He has been a speaker at various conferences including Black Hat Asia, CONFidence, Hacktivity. Former OWASP Poland board member. A casual bug bounty hunter, listed in the Halls of Fame of Adobe, Algolia, GM, Jet, Netflix, Tesla, Twitter, Uber, and Yahoo.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkFifteen"
+                      aria-expanded="false" aria-controls="talkFifteen">
+                      "I have no idea how to make it safer”: Security and Privacy Mindsets of Browser Extension Developers
+                    </button>
+                  </h2>
+                  <div id="talkFifteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-18-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-18-simple-tabpanel-0" role="tab" aria-controls="acc-18-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-18-simple-tab-1" data-bs-toggle="tab" href="#acc-18-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-18-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-18-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-18-simple-tab-0">
+                          <p>Browser extensions are a powerful part of the Web ecosystem as they extend browser functionality and let users personalize their online experience. But with higher privileges than regular web apps, extensions bring unique security and privacy risks. Much like web applications, vulnerabilities often creep in, not just through poor implementation, but also through gaps in developer awareness and ecosystem support.</p>
+                          <p>In this talk, we share insights from a recent study in which we interviewed and observed 21 extension developers across the world [1] as they worked on security and privacy-related tasks that we designed based on our prior works and observations [2, 3]. Their live decision-making revealed common misconceptions, unexpected pain points, and ecosystemic obstacles in the extension development lifecycle. Extending beyond our published results, we plan to highlight some of the untold anecdotes, insecure development practices, their threat perception, the design-level challenges, as well as the misconceptions around them.</p>
+                          <p>The audience will take away the following items from the presentation/discussion:
+                            <ul>
+                              <li>Common insecure practices in extension development.</li>
+                              <li>Why security ≠ privacy ≠ store compliance, as often perceived by extension developers!</li>
+                              <li>Hidden design gaps and loopholes in extension architecture that developers can't spot or comprehend.</li>
+                              <li>Anecdotes on the course of extension development in the era of LLMs.</li>
+                              <li>Developers, regulations (GDPR/CCPA/CRA), and a few “interesting” opinions.</li>
+                              <li>And, most importantly, why you should NOT give up on them just yet! :)</li>
+                            </ul>
+                          </p>
+                          <p>References:
+                            <ul>
+                              <li>[1] Agarwal, Shubham, et al. “I have no idea how to make it safer”: Studying Security and Privacy Mindsets of Browser Extension Developers. Proceedings of the 34th USENIX Security Symposium 2025.</li>
+                              <li>[2] Agarwal, Shubham, Aurore Fass, and Ben Stock. Peeking through the window: Fingerprinting Browser Extensions through Page-Visible Execution Traces and Interactions. Proceedings of the 31st ACM SIGSAC Conference on Computer and Communications Security. 2024.</li>
+                              <li>[3] Agarwal, Shubham. Helping or hindering? How browser extensions undermine security. Proceedings of the 2022 ACM SIGSAC Conference on Computer and Communications Security. 2022.</li>
+                            </ul> 
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="acc-18-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-18-simple-tab-1">
+                          <p><strong>Shubham Agarwal</strong> a final year Ph.D student in the Secure Web Applications Group (SWAG) at the CISPA Helmholtz Center for Information Security & Saarland University, where he is supervised by Dr.-Ing. Ben Stock.</p>
+                          <p>His research interests include Application Security & Data Privacy. His currently focus on the the client-side security of Web applications, browser extensions and large-scale vulnerability detection.</p>
+                          <p>He will continue his research as post-doctoral researcher at MPI-SP, Bochum starting September 2025 at SPRING Lab, headed by Carmela Troncoso.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkSixteen"
+                      aria-expanded="false" aria-controls="talkSixteen">
+                      How we hacked Y Combinator companies' AI agents
+                    </button>
+                  </h2>
+                  <div id="talkSixteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-19-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-19-simple-tabpanel-0" role="tab" aria-controls="acc-19-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-19-simple-tab-1" data-bs-toggle="tab" href="#acc-19-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-19-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-19-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-19-simple-tab-0">
+                          <p>We hacked 7 of the16 publicly-accessible YC X25 AI agents. This allowed us to leak user data, execute code remotely, and take over databases. All within 30 minutes each. In this session, we'll walk through the common mistakes these companies made and how you can mitigate these security concerns before your agents put your business at risk.
+                          </p>
+                        </div>
+                        <div class="tab-pane" id="acc-19-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-19-simple-tab-1">
+                          <p><strong>Rene Brandel</strong> is the Cofounder & CEO of Casco. Before Casco, he was the Head of Product at AWS and inventor of "Kiro" - AWS' agentic IDE. He has a long-standing passion for AI, cloud, and developer tools. In fact, he won Europe's largest hackathon in 2016 with a voice-to-code agent before generative AI became a common-place technology.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkSeventeen"
+                      aria-expanded="false" aria-controls="talkSeventeen">
+                      A CISO's Adventures in AI Wonderland
+                    </button>
+                  </h2>
+                  <div id="talkSeventeen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-20-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-20-simple-tabpanel-0" role="tab" aria-controls="acc-20-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-20-simple-tab-1" data-bs-toggle="tab" href="#acc-20-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-20-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-20-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-20-simple-tab-0">
+                          <p>As a CISO (or any other security expert) in the area of AI, you can find yourself in increasingly challenging and sometimes bizarre AI-related situations not unlike Alice's adventures in Wonderland.</p>
+                          <p>Depending on whom you speak to, people either have high (inflated?) expectations about the (magic?) benefits of AI for security efforts, or try to explain why "AI security Armageddon" is looming... and that is just the security part of the story. All other areas in your organization are heavily using or experimenting with AI (e.g., vibe coding, automation, decision making, etc.), challenging (or ignoring) established security practices.</p>
+                          <p>This talk tells the story of the daily experience of dealing with AI as a CISO in a cloud-application startup. Which experiments failed or were successful, which advice is helpful, what is difficult to apply in practice, which questions are still open...</p>
+                          <p>The motivation for this talk is to start a conversation among security experts on how we can shape a secure AI future and not get pushed into the role of being seen as "hindering" AI progress.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-20-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-20-simple-tab-1">
+                          <p><strong>Holger Mack's</strong> enthusiasm for the security topic started back in the 1990s while studying for an MSc. in Information Security at Royal Holloway, University of London. Holger is convinced that security, if applied correctly and appropriately, is a key enabler for successful business applications. In this capacity, he has spent most of his career in the middle between business needs and security - with a special interest in the impact of new developments (e.g., PKI, cloud, AI).</p>
+                          <p>After working for SAP in different capacities including Head of SAP HANA Security, Holger currently works as Head of Security at Everest Systems GmbH.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkEighteen"
+                      aria-expanded="false" aria-controls="talkEighteen">
+                      The Trust Trap - Security von Coding Assistants
+                    </button>
+                  </h2>
+                  <div id="talkEighteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-21-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-21-simple-tabpanel-0" role="tab" aria-controls="acc-21-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-21-simple-tab-1" data-bs-toggle="tab" href="#acc-21-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-21-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-21-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-21-simple-tab-0">
+                          <p>Coding Assistants wie Github Copilot, Cursor oder Claude versprechen einen Effizienzboost für die Softwareentwicklung. Doch welchen Einfluss hat die Nutzung dieser Tools auf die Software Security?</p>
+                          <p>Dieser Vortrag analysiert die Vor- und Nachteile von Coding Assistants in Hinblick auf die Sicherheit des entstehenden Codes. Er gibt einen Überblick über die aktuelle Studienlage und die Benchmarks zu den verschiedenen Modellen und diskutiert die Ergebnisse. Neben der Bedeutung von eingebrachten Schwachstellen im Code selbst werden Risiken wie Slopsquatting, Model Poisoning und Rules File Backdoors erläutert. Zuletzt gibt der Vortrag Empfehlungen zu Best Practices für die Nutzung von Coding Assistants: von der richtigen Konfiguration und Nutzung über Richtlinien zum Review und Testen von solchem Code.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-21-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-21-simple-tab-1">
+                          <p><strong>Clemens Hübner</strong> beschäftigt sich seit über 15 Jahren mit der Schnittmenge von Softwareentwicklung und Security. Nach Tätigkeiten als Software Developer sowie im Penetration Testing ist er seit 2018 als Security Engineer bei inovex. Dort begleitet er heute Entwicklungsprojekte auf Konzeptions- und Implementierungsebene, schult Kolleg:innen und Kund:innen und berät zu DevSecOps. Als Speaker wird er auf Techkonferenzen im In- und Ausland zu praktischen Themen der Anwendungssicherheit eingeladen.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkNineteen"
+                      aria-expanded="false" aria-controls="talkNineteen">
+                      Der Cyber Resilience Act: Wie OWASP für Software-Hersteller eine entscheidende Rolle spielen kann
+                    </button>
+                  </h2>
+                  <div id="talkNineteen" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-22-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-22-simple-tabpanel-0" role="tab" aria-controls="acc-22-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-22-simple-tab-1" data-bs-toggle="tab" href="#acc-22-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-22-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-22-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-22-simple-tab-0">
+                          <p>Der Cyber Resilience Act, kurz CRA, ist eine neue Verordnung der EU und tritt im Dezember 2027 vollständig in Kraft. Das Kernelement der Verordnung ist die Softwaresicherheit für alle so genannten „Produkte mit digitalen Elementen“, die auf dem EU-Markt kommerziell angeboten werden. Diese umfassen sowohl vernetzte Hardware-Produkte, in denen Firmwares laufen, als auch reine Softwareprodukte. Die Anforderungen an die Software-Hersteller erstrecken sich von grundsätzlichem „Security by Design“ und „Secure by Default“, über Bedrohungsanalysen der Software bis hin zu verpflichtendem Patching und Schwachstellenmanagement.</p>
+                          <p>Die Themen klingen irgendwie familiär? Kein Wunder, denn eine ganze Reihe von Projekten aus dem OWASP-Ökosystem sind geradezu prädestiniert zum Einsatz im Kontext des CRAs. Nicht nur, dass mit CycloneDX einer der zwei de-facto SBOM-Standards aus OWASP heraus entstanden ist - auch Frameworks wie OWASP SAMM oder Tools wie Dependency-Track können ganz entscheidende Rollen für die Umsetzung von Supply-Chain-Security und SDLC-Prozessen spielen.</p>
+                          <p>In diesem Talk schauen wir uns die Anforderungen der Verordnung genauer an und blicken dann auf Schnittstellen zu OWASP-Projekten. Dies soll am Ende helfen, sowohl für die Seite der Hersteller ein besseres Bild für OWASP zu erzeugen, als auch von OWASP-Seite aus zielgenauer auf CRA-Verpflichtete zugehen zu können. Je mehr Menschen sich in den Themen wiederfinden und Zusammenarbeit entstehen kann, desto besser.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-22-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-22-simple-tab-1">
+                          <p><strong>Dominik Pataky</strong> ist seit vielen Jahren in der Software- und Netzwerk-Security unterwegs. Das Mapping von Gesetzen und Compliance-Regeln auf technische Implementierung begleitet ihn mittlerweile seit über fünf Jahren. Nach seiner Position in der Informationssicherheit im Frankfurter Finanzwesen machte er sich als IT-Consultant selbständig und übernahm später beim SCS die Position als PO für Security & Operations. Nun fokussiert er sich gänzlich auf den CRA und baut Software-Lösungen für deutsche Unternehmen. Er ist außerdem OWASP-Member und ein großer Freund von freier open-source Software.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTwenty"
+                      aria-expanded="false" aria-controls="talkTwenty">
+                      YuraScanner: Leveraging LLMs for Task-driven Web App Scanning
+                    </button>
+                  </h2>
+                  <div id="talkTwenty" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-23-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-23-simple-tabpanel-0" role="tab" aria-controls="acc-23-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-23-simple-tab-1" data-bs-toggle="tab" href="#acc-23-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-23-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-23-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-23-simple-tab-0">
+                          <p>Web application scanners are popular and effective black-box testing tools, automating the detection of vulnerabilities by exploring and interacting with user interfaces. Despite their effectiveness, these scanners struggle with discovering deeper states in modern web applications due to their limited understanding of workflows. This study addresses this limitation by introducing YuraScanner, a task-driven web application scanner that leverages large-language models (LLMs) to autonomously execute tasks and workflows.</p>
+                          <p>YuraScanner operates as a goal-based agent, suggesting actions to achieve predefined objectives by processing webpages to extract semantic information. Unlike traditional methods that rely on user-provided traces, YuraScanner uses LLMs to bridge the semantic gap, making it web application-agnostic. Using the XSS engine of Black Widow, YuraScanner tests discovered input points for vulnerabilities, enhancing the scanning process's comprehensiveness and accuracy.</p>
+                          <p>We evaluated YuraScanner on 20 diverse web applications, focusing on task extraction, execution accuracy, and vulnerability detection. The results demonstrate YuraScanner's superiority in discovering new attack surfaces and deeper states, significantly improving vulnerability detection. Notably, YuraScanner identified 12 unique zero-day XSS vulnerabilities, compared to three by Black Widow. This study highlights YuraScanner's potential to revolutionize web application scanning with its automated, task-driven approach.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-23-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-23-simple-tab-1">
+                          <p><strong>Aleksei Stafeev</strong> is PhD Student in the Application Security group at CISPA, Germany. Formerly, an Application Security Specialist at Kaspersky. Building fully automated web security scanners by day and hacking hardware by night.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTwentyone"
+                      aria-expanded="false" aria-controls="talkTwentyone">
+                      OWASP Top 10:2025: Aktuelle Informationen und Insights zum Projekt
+                    </button>
+                  </h2>
+                  <div id="talkTwentyone" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-24-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-24-simple-tabpanel-0" role="tab" aria-controls="acc-24-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-24-simple-tab-1" data-bs-toggle="tab" href="#acc-24-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-24-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-24-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-24-simple-tab-0">
+                          <p>Der Kurzvortrag stellt den aktuellen Stand der OWASP Top 10:2025 vor, mit etwas Glück haben wir bis dahin schon mehr...</p>
+                        </div>
+                        <div class="tab-pane" id="acc-24-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-24-simple-tab-1">
+                          <p><strong>Torsten Gigler</strong> ist:
+                            <ul>
+                              <li>Interner IT-Sicherheits-Berater bei einer Bank, spezialisiert auf IT-Infrastruktur- und Anwendungs-Sicherheit (mehr als 25 Jahre)</li>
+                              <li>Bei OWASP seit 2013 aktiv:</li>
+                                <ul>
+                                  <li>Seit 2017 Co-Leader der 'OWASP Top 10' und Mitarbeit bei den deutschen Versionen (2013 bereits Contributor)</li>
+                                  <li>O-Saft - OWASP SSL Advanced Forensic Tool (Contributor: Entwickler des Simulationsmoduls 'TLS-/SSL-Hello' vor/seit 12 Jahren)</li>
+                                  <li>Stammtisch München (Mitorganisator seit 2015)</li>
+                                  <li>Im OWASP-Germany-Chapter-Board seit 8 Jahren</li>
+                                  <li>Seit 2023 Projekt-Leader “OWASP Open Security Information Base (OSIB)”</li>
+                                  <li>Projekt Leader “OWASP Top 10 für Entwickler“ (2013 - 2017)</li>
+                                </ul>
+                            </ul>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#talkTwentytwo"
+                      aria-expanded="false" aria-controls="talkTwentytwo">
+                      News from the Juice Shop ecosystem
+                    </button>
+                  </h2>
+                  <div id="talkTwentytwo" class="accordion-collapse collapse" data-bs-parent="#talkAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-25-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-25-simple-tabpanel-0" role="tab" aria-controls="acc-25-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-25-simple-tab-1" data-bs-toggle="tab" href="#acc-25-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-25-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3">
+                        <div class="tab-pane active" id="acc-25-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-25-simple-tab-0">
+                          <p>OWASP Juice Shop went through some significant renovation and enhancements over the last year in order to keep current with the underlying Node.js and Angular frameworks. MultiJuicer was entirely rewritten in GoLang and is now faster and more reliable than ever before. All Juice Shop side-projects have been migrated to TypeScript and brought to a common stack for testing and code linting.</p>
+                          <p>But the team did not only clean up and refactor behind the scenes. There are also lots of exciting new features and enhancements available, such as:</p>
+                            <ul>
+                              <li>Several new hacking challenges, e.g. a YAML memory bomb attack and an API key leakage</li>
+                              <li>Enhancing MultiJuicer's team score board to deliver a more holistic CTF experience</li>
+                              <li>Reimagining the hint system for all challenges, integrating now even better with CTF servers and making the use of hints more explicit for users</li>
+                            </ul>
+                          <p>Of course the popular Juice Shop Success Pyramid™ will be back with beyond-crazy Docker image download stats and other usage figures!</p>
+                        </div>
+                        <div class="tab-pane" id="acc-25-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-25-simple-tab-1">
+                          <p><strong>Björn Kimminich</strong> works as Product Group Lead Application Ecosystem at Kuehne+Nagel, responsible - among other things - for the Application Security program in the corporate IT. He is an OWASP Lifetime Member, project leader of the OWASP Juice Shop, and a co-chapter leader for the OWASP Germany Chapter. Björn also currently chairs the OWASP Project Committee.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-light py-5">
+          <div class="container px-4 px-lg-5"><div class="small text-center text-muted">Copyright &copy; 2025 - OWASP Germany Chapter</div></div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="js/5.2.3bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+              // Get the URL parameter
+              const urlParams = new URLSearchParams(window.location.search);
+              const accordionToOpen = urlParams.get('talk');
+
+              if (accordionToOpen) {
+                // Find the corresponding collapse element
+                const collapseElement = document.getElementById(accordionToOpen);
+                if (collapseElement) {
+                  // Collapse all sections
+                  const allCollapses = document.querySelectorAll('.accordion-collapse');
+                  allCollapses.forEach(function(collapse) {
+                    new bootstrap.Collapse(collapse, { toggle: false });
+                  });
+          
+                  // Open the targeted section
+                  new bootstrap.Collapse(collapseElement, {
+                    toggle: true
+                  });
+                }
+              }
+            });
+          </script>
+    </body>
+</html>
