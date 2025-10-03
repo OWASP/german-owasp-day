@@ -29,6 +29,234 @@
         <section class="page-section bg-primary" id="trainings">
           <div class="container px-4 px-lg-5" style="padding-top: 3rem;">
             <div class="row gx-4 gx-lg-5 justify-content-center">
+              <h2 class="text-white text-center mb-4">Trainings</h2>
+              <div class="accordion" id="trainingAccordion">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#trainingOne" aria-expanded="false" aria-controls="trainingOne">
+                      Eliminating Bug Classes at Scale: Leveraging Browser Features for Proactive Defense
+                    </button>
+                  </h2>
+                  <div id="trainingOne" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-1-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-1-simple-tabpanel-0" role="tab" aria-controls="acc-1-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-1-simple-tab-1" data-bs-toggle="tab" href="#acc-1-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-1-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3" id="tab-content">
+                        <div class="tab-pane active" id="acc-1-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-1-simple-tab-0">
+                          <p>Traditional patching has failed to scale - it's time for a new approach. This hands-on workshop teaches you to eliminate entire bug classes with modern browser security features instead of endlessly reacting to reports. Instead of firefighting the same issues, you'll learn how Content-Security-Policy v3, Trusted Types, and Sec-Fetch-Metadata go beyond traditional OWASP recommendations to prevent vulnerabilities at scale.</p>
+                          <p>You'll work with a training app that's already secured, but we'll go further. By applying advanced browser defenses, testing effectiveness, and enforcing security at scale, you'll experience firsthand how modern web standards protect both new and legacy systems.</p>
+                          <p>This isn't just about fixing issues - it's about scaling security across an organization. We'll explore measuring adoption across hundreds of services, automating enforcement, and applying defense-in-depth beyond single vulnerabilities.</p>
+                          <p>Through interactive group challenges, you'll tackle real-world vulnerabilities, enforce modern safeguards, and transform how you approach web security. Whether you're a developer, security engineer, or architect, you'll leave with practical tools and a proactive security mindset - moving from patching to prevention.</p>
+                          <strong>Outline:</strong>
+                          <ol>
+                            <li>Introduction and Overview</li>
+                              <ul>
+                                <li>Why traditional vulnerability patching fails to scale.</li>
+                                <li>The shift towards bug class elimination instead of endless fixes.</li>
+                                <li>Setting expectations: Moving from firefighting vulnerabilities to scalable, long-term solutions.</li>
+                                <li>Overview of browser security standards that didn't exist three years ago and how they help eliminate entire attack classes.</li>
+                                <li>No deep coding required - all solutions, code snippets, and automation blueprints are provided throughout the training.</li>
+                              </ul>
+                            <li>The Case for Secure by Default</li>
+                              <ul>
+                                <li>The impact of insecure defaults and why patching isn't enough.</li>
+                                <li>The dramatic shift in browser security standards and the new opt-in approaches ready for use.</li>
+                                <li>Core modern web standards:</li>
+                                  <ul>
+                                    <li>CSP3 for preventing XSS.</li>
+                                    <li>Trusted Types for eliminating DOM-based XSS and client side sanitizing.</li>
+                                    <li>Sec-Fetch Metadata & SameSite Cookies for CSRF protection.</li>
+                                    <li>COOP/COEP for preventing cross-origin attacks.</li>
+                                    <li>latest Reporting API & sneak preview into Integrity-Policy</li>
+                                  </ul>
+                              </ul>
+                            <li>Bug Class Elimination in Practice</li>
+                              <ul>
+                                  <li>Analysing common vulnerability classes (XSS, CSRF, Clickjacking, cross-origin exploits).</li>
+                                  <li>Leveraging frameworks and browser-led security mechanisms for prevention instead of mitigation.</li>
+                                  <li>Measuring security adoption of modern security mechanisms at scale in environments with hundreds of services or products.</li>
+                                  <li>Blueprints for automation and reporting to track adoption across an organisation.</li>
+                                </ul>
+                            <li>Multiple Hands-On Challenges: Applying Secure-by-Default Protections</li>
+                                <ul>
+                                <li>Participants will work with a vulnerable training application that has partial security but still requires additional defenses.</li>
+                                <li>Teams apply advanced browser security standards, test their effectiveness, and experience firsthand how they eliminate entire attack classes.</li>
+                                <li>Minimal coding required - all solutions, code snippets, and automation templates are provided.</li>
+                              </ul>
+                            <li>Group Peer Session: Designing Solutions for Modern Standards</li>
+                              <ul>
+                                <li>Applying modern browser security standards to real-world applications.</li>
+                                <li>Small group exercises to design scalable security strategies.</li>
+                                <li>Discussion of real-world adoption challenges (legacy apps vs modern SPA) and how organisations can roll out secure-by-default strategies effectively.</li>
+                              </ul>
+                            <li>Scalable Security Through Automation</li>
+                              <ul>
+                                  <li>How to automate enforcement of browser security features across an organisation.</li>
+                                  <li>Using scalability metrics to track adoption in large environments.</li>
+                                  <li>Blueprints for automating CSP enforcement, reporting adoption rates, and tracking non-compliant services.</li>
+                                </ul>
+                          </ol>
+                        </div>
+                        <div class="tab-pane" id="acc-1-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-1-simple-tab-1">
+                          <p><strong>Javan Rasokat</strong> is a DevOps Security Specialist at Sage, where he joined five years ago to lead Product Security for Central Europe and now supports products globally, contributing on the standardisation of security controls. He discovered his passion for security early in his career while identifying and reporting vulnerabilities, which led him to transition from full-stack web and mobile engineering into security. On the side, he lectures Secure Coding at DHBW University in Germany, and has shared his research and workshops at conferences including DEFCON, OWASP Global AppSec, and Blackhat.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#trainingTwo" aria-expanded="false" aria-controls="trainingTwo">
+                      Workshop Cyber Resilience Act
+                    </button>
+                  </h2>
+                  <div id="trainingTwo" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-2-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-2-simple-tabpanel-0" role="tab" aria-controls="acc-2-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-2-simple-tab-1" data-bs-toggle="tab" href="#acc-2-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-2-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3" id="tab-content">
+                        <div class="tab-pane active" id="acc-2-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-2-simple-tab-0">
+                          <p>Im Workshop vermitteln wir zunächst, was der Cyber Resilience Act (CRA) ist: Wir erklären, dass er eine EU-Verordnung ist, die Produkte mit digitalen Elementen EU-weit reguliert, und dass er am 10. Dezember 2024 in Kraft tritt, mit Meldepflichten ab dem 11. September 2026 und voller Geltung ab dem 11. Dezember 2027.</p>
+                          <p>Wir schauen uns die essenziellen Anforderungen an Hersteller an: Sicherheit durchgängig im Produktlebenszyklus („security-by-design“), Risikobewertung, sichere Updates, Zugriffskontrollen, Schwachstellenmanagement, und wie Dokumentation und SBOMs ausgestaltet sein müssen - unterstützt durch die technische Richtlinie TR-03183 des BSI als praktischer Leitfaden.</p>
+                          <p>Außerdem erarbeiten wir, was das Ganze für End-kund:innen und Nutzer bedeutet: klare Produkt- und Sicherheitshinweise, transparente Sicherheitsupdates, Kontaktpunkte für Sicherheit (PSIRT / SPOC), einen nachvollziehbaren Supportzeitraum und wie Unternehmen konkret eine Lücke („Gap“) zwischen dem aktuellen Status und CRA-Konformität schließen können.</p>
+                          <p>Da das Workshop-Material recht theoretisch ist, soll mit Diskussionen und Beispielen der Teilnehmer gearbeitet werden, um Fragen zu diskutieren und den Workshop interaktiver zu gestalten. Viele Fragen des CRA sind in der Praxis noch nicht abschließend geklärt. Je nach Hintergrund der Teilnehmer und Zeitverlauf können wir einmal den Umgang mit Meldungen eines Herstellers oder das Schwachstellenhandling in einem PSIRT unter dem Cyber Resilience Act durchspielen.</p>
+                          <ol>
+                            <li>Der Cyber Resilience Act im Überblick: Cyber Resilience Act und EU Gesetzgebung. Der CRA als Ergänzung zu NIS-2 mit Produktfokus.</li>
+                            <li>Cyber Resilience Act: Umfang, Struktur, Klassifizierung und Zeitplan: Wer ist betroffen, wie ist der CRA aufgebaut, wie ist die Timeline? Welche Produktkategorien und Strafen bei Verstößen sind vorgesehen?</li>
+                            <li>Security und Vulnerability Handling Anforderungen:</li>
+                              <ol>
+                                <li>Wie sehen die Sicherheitsanforderungen für die einzelnen Kategorien im CRA im Detail aus?</li>
+                                <li>Wie sehen die Reporting-Pflichten aus? In welchem Zeitraum muss was reported werden?</li>
+                                <li>Welche Vorteile haben Firmen, Anwender und Nutzer von Produkten, die unter den CRA fallen, aus der neuen Gesetzgebung? Welche Informationen stellen Supplier und Vendoren an Ihre Kunden bereit?</li>
+                              </ol>
+                            <li>Die Rolle des Sicheren Entwicklungslebenszyklus für den CRA: Welche Guidance stellt die BSI TR-03183 bereit, und was sind die Kernelemente, um einen Secure Development Lifecycle zu etablieren, der die Konformität zu den Anforderungen des CRA unterstützt? Welche Rolle spielen Risikoanalyse, Security by Design und SBOMs?</li>
+                            <li>Incident Management und Dokumentation: Wie sieht ein kompatibler Vuulnerability Disclosure Prozess aus, welche Aufgabe hat das Product Security Incident Response Team und welche Arten von Dokumentation muss gepflegt werden, um die Anforderungen des CRA zu erfüllen?</li>
+                          </ol>
+                          <p>Da der CRA ein grundlegender Standard bedeutet, wird sich Gelegenheit ergeben zu diskutieren, welche Produkte zukünftig unter den CRA fallen, welche Rollen im CRA mit welchen Verantwortungen einhergehen, aber auch wie sich Informationen, die Hersteller auf Basis des CRAs an Ihre Kunden bereitstellen müssen, in die eigenen Prozesse integrieren lassen.</p>
+                        </div>
+                        <div class="tab-pane" id="acc-2-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-2-simple-tab-1">
+                          <p><strong>Michael Helwig</strong> is a cybersecurity strategist and expert working on a wide range of product and cybersecurity topics with a background in secure software development. He is the co-founder of a security consulting firm that helps clients across industries implement product security programs, adopt DevSecOps, and achieve compliance with various standards.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                      data-bs-target="#trainingThree" aria-expanded="false" aria-controls="trainingThree">
+                      Threat Modeling with AI
+                    </button>
+                  </h2>
+                  <div id="trainingThree" class="accordion-collapse collapse" data-bs-parent="#trainingAccordion">
+                    <div class="accordion-body">
+                      <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link active" id="acc-3-simple-tab-0" data-bs-toggle="tab"
+                            href="#acc-3-simple-tabpanel-0" role="tab" aria-controls="acc-3-simple-tabpanel-0"
+                            aria-selected="true">Content</a>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <a class="nav-link" id="acc-3-simple-tab-1" data-bs-toggle="tab" href="#acc-3-simple-tabpanel-1"
+                            role="tab" aria-controls="acc-3-simple-tabpanel-1" aria-selected="false">Speaker(s)</a>
+                        </li>
+                      </ul>
+                      <div class="tab-content pt-3" id="tab-content">
+                        <div class="tab-pane active" id="acc-3-simple-tabpanel-0" role="tabpanel"
+                          aria-labelledby="acc-3-simple-tab-0">
+                          <p>This workshop aims to introduce Security Professionals, Developers, Architects, and Product Managers to integrating AI assistance into their threat modeling workflows. In this session, participants will learn how to leverage AI for diagramming, threat identification, and countermeasure recommendations to speed up threat model analysis.</p>
+                          <p>To bring these concepts to life, the workshop includes a guided case study on a Digital Wallet / Payment App, where participants will use AI tools to generate a data flow diagram, identify threats using STRIDE, propose mitigations mapped to industry standards, and summarize findings for business stakeholders. This integrated exercise provides an engaging, end-to-end view of how AI can support—but not replace—human judgment in threat modeling.</p>
+                          <p>While participants should have a working knowledge of Generative AI and LLM concepts and tools (e.g., prompt engineering), no prior experience with threat modeling is required.</p>
+                          <ul>
+                            <li>Welcome and Introduction</li>
+                              <ul>
+                                <li>Introductions</li>
+                                <li>Workshop overview</li>
+                                <li>Setting expectations</li>
+                              </ul>
+                            <li>Threat Modeling Fundamentals</li>
+                              <ul>
+                                  <li>What is threat modeling?</li>
+                                  <li>Doomsday scenarios</li>
+                                </ul>
+                            <li>Threat modeling augmented by AI</li>
+                              <ul>
+                                  <li>AI as a force multiplier, not a replacement</li>
+                                  <li>Natural Language Processing (NLP) for requirements analysis, knowledge graphs for context, and large language models (LLMs) for generating ideas</li>
+                                  <li>Ethical considerations (data privacy, hallucinations, and the need for human oversight)</li>
+                                </ul>
+                            <li>Threat Modeling Methodology: DICE</li>
+                              <ul>
+                                  <li>Introduction to the DICE framework</li>
+                                  <li>Data Flow Diagrams (DFD) basics</li>
+                                  <li>Trust boundaries</li>
+                                </ul>
+                            <li>Automated Data Flow Diagramming</li>
+                              <ul>
+                                  <li>Use AI to analyze design documents and source code</li>
+                                  <li>Generate comprehensive data flow diagrams (DFDs) through AI assistance</li>
+                                  <li>Identify system components and sensitive data based on text analysis</li>
+                                  <li>Crafting effective prompts to extract system components, data types, and trust boundaries from architecture descriptions</li>
+                                  <li>Introduction to tools that can generate DFDs from natural language or code snippets (DiagramGPT, etc.)</li>
+                                  <li>Hands-on: Generate DFD for a Digital Wallet / Payment App</li>
+                                </ul>
+                            <li>AI-Driven Threat and Vulnerability Identification</li>
+                              <ul>
+                                  <li>STRIDE / AI Threats</li>
+                                  <li>STRIDE GPT tool demo</li>
+                                  <li>Using AI to generate potential threats for each element of a DFD</li>
+                                  <li>Training AI models using threat libraries like MITRE ATT&CK to suggest relevant attack vectors</li>
+                                  <li>Hands-on: AI-Assisted STRIDE analysis for a Digital Wallet / Payment App</li>
+                                </ul>
+                            <li>AI for Mitigation and Control Recommendation (60 minutes)</li>
+                              <ul>
+                                  <li>Asking an AI to suggest specific security controls (e.g., "What are three ways to mitigate a 'Tampering' threat on this API endpoint?")</li>
+                                  <li>AI can link proposed controls back to business requirements and compliance standards</li>
+                                  <li>Use AI to summarize the threat modeling process, key findings, and action items for stakeholders</li>
+                                  <li>Hands-on: AI-Assisted mitigations for a Digital Wallet / Payment App</li>
+                                  <li>Hands-on: Prompting the Digital Wallet / Payment App report and outcomes</li>
+                                </ul>
+                            <li>Workshop Wrap-up</li>
+                              <ul>
+                                  <li>Resources for continued learning</li>
+                                  <li>Next steps</li>
+                                </ul>
+                          </ul>        
+                        </div>
+                        <div class="tab-pane" id="acc-3-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-3-simple-tab-1">
+                          <p><strong>Georges Bolssens</strong> started coding in the early 1990s and shifted to application security in 2017. A passionate teacher and experienced developer, he is known for making complex topics understandable through clear analogies. As an Application Security Consultant at Toreon, Georges assists clients in developing strong threat models for their digital assets. He has also conducted threat modeling training at OWASP, Black Hat, and Troopers, sharing his expertise with audiences around the world.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="container px-4 px-lg-5" style="padding-top: 3rem;">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
               <h2 class="text-white text-center mb-4">Talks</h2>
               <div class="accordion" id="talkAccordion">
                 <div class="accordion-item">
@@ -171,7 +399,7 @@
                         </div>
                         <div class="tab-pane" id="acc-6-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-6-simple-tab-1">
                           <p><strong>Javan Rasokat</strong> is a DevOps Security Specialist at Sage, where he joined five years ago to lead Product Security for Central Europe and now supports products globally, contributing on the standardisation of security controls. He discovered his passion for security early in his career while identifying and reporting vulnerabilities, which led him to transition from full-stack web and mobile engineering into security. On the side, he lectures Secure Coding at DHBW University in Germany, and has shared his research and workshops at conferences including DEFCON, OWASP Global AppSec, and Blackhat.</p>
-                          <p><strong>Vanessa Sutter</strong> is a Senior Security Operations Specialist at Frontify with a background as a full-stack engineer. She discovered her passion for security while taking the lead on secure practices within her engineering team, later contributing to initiatives such as the company’s Bug Bounty Program. Alongside her role, she trains apprentices, teaches at a vocational school, and serves as an expert for the Swiss final apprenticeship project (IPA).</p>
+                          <p><strong>Vanessa Sutter</strong> is a Senior Security Operations Specialist at Frontify with a background as a full-stack engineer. She discovered her passion for security while taking the lead on secure practices within her engineering team, later contributing to initiatives such as the company's Bug Bounty Program. Alongside her role, she trains apprentices, teaches at a vocational school, and serves as an expert for the Swiss final apprenticeship project (IPA).</p>
                         </div>
                       </div>
                     </div>
