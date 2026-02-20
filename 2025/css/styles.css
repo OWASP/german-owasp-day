@@ -6533,3 +6533,7 @@ header.masthead h1, header.masthead .h1 {
   -o-transition: all 0.4s;
   transition: all 0.4s;
 }
+
+.button-horizontal-space {
+  margin-right: 20px;
+}
