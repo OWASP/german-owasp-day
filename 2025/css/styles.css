@@ -6506,6 +6506,7 @@ header.masthead h1, header.masthead .h1 {
   border-radius: 10rem;
   border-color: rgb(var(--bs-primary-rgb));
   background-color: rgb(var(--bs-primary-rgb));
+  margin-right: 20px;
 }
 .download-program-btn {
   color: white;
@@ -6532,8 +6533,4 @@ header.masthead h1, header.masthead .h1 {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
-}
-
-.button-horizontal-space {
-  margin-right: 20px;
 }
