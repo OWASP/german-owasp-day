@@ -152,7 +152,7 @@
                           </ul>
                         </div>
                         <div class="tab-pane" id="acc-3-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-3-simple-tab-1">
-                          <p><strong>Thomas Blessen</strong> is an Independent Security Researcher with 13+ years of experience in Red Teaming and full-spectrum security assessments. His expertise spans AppSec, IoT/OT, Mainframes, SAP, Cloud, and Physical Covert Entry. He has secured global enterprises across Telecom, SWIFT, and financial environments.</p>
+                          <p><strong>Thomas Blessen</strong> is an Independent Security Researcher with 14+ years of experience in Red Teaming and full-spectrum security assessments.  His expertise spans AppSec, IoT/OT, Mainframes, SAP, Cloud, and Physical Covert Entry. He has secured global enterprises across Telecom, SWIFT, and financial environments.</p>
                           <p>Blessen holds a B.Tech in IT and elite certifications including SANS GPEN, CRTO, OSCP, CRTP, and CREST. A prolific bug hunter, he is featured in the Hall of Fame for Oracle, Sony, and Splunk. He is a key contributor to community projects like the OWASP MSTG, OWASP Top 10 API, and Seclists. His research and trainings have been featured at premier global stages including Hack In The Box, CanSecWest, HITCON, and various OWASP AppSec Summits. Beyond the work, he is a dedicated drummer and percussionist.</p>
                         </div>
                       </div>
@@ -188,42 +188,46 @@
                           <p><strong>Requirements:</strong></p>
                           <p>To make the most of the workshop, participants should have basic familiarity with Python, including working with functions and classes, making API requests, and executing database queries. A foundational, non-deep technical understanding of AI and LLM concepts, such as prompt structures, AI supply chain and retrieval-augmented generation (RAG), is also expected, along with general awareness of common software security vulnerabilities such as XSS and SQL injection. Without this background, participants may still be able to complete some challenges but may not fully understand the underlying technical root causes.</p>
                           <p>Participants should bring a laptop with Docker installed and working. Since pulling the PwnzzAI Docker image and the required AI models can take 10-20 minutes, attendees are strongly recommended to complete this step before the workshop to ensure a smooth and hands-on experience.</p>
-                          <p>There are two options to run the LLM hands-on in the Docker image:</p>
-                          <ol>
-                            <li>
-                              Using OpenAI models
-                              <ul>
-                                <li>You will need an OpenAI API key.</li>
-                                <li>
-                                  The Docker image can run on an ordinary laptop with:
-                                  <ul>
-                                    <li>CPU: 4 cores or more</li>
-                                    <li>RAM: 8-16 GB</li>
-                                    <li>Disk: 30 GB free space for the Docker image</li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
-                            <li>
-                              Using Ollama with free models
-                              <ul>
-                                <li>We use two free models: Mistral 7B and LLaMA 3.2 1B.</li>
-                                <li>
-                                  This option needs a more powerful laptop:
-                                  <ul>
-                                    <li>CPU: 8 cores or more</li>
-                                    <li>RAM: 32 GB minimum</li>
-                                    <li>Disk: 50-100 GB free SSD space for models and Docker</li>
-                                    <li>Optional, for faster performance: NVIDIA GPU with 12 GB+ VRAM</li>
-                                  </ul>
-                                </li>
-                              </ul>
-                            </li>
-                          </ol>
+                          <h4>Workshop Access Options</h4>
+                          <p>Participants can choose one of two ways to complete the hands-on exercises.</p>
+                          <h5>Option 1: Use the Hosted Workshop Environment</h5>
+                          <p>The lab will be deployed on a public server and can be accessed directly through a web browser. No installation is required.</p>
+                          <ul>
+                            <li>A shared API key for commercial models will be provided during the workshop.</li>
+                            <li>Open-source models running on Ollama will also be available through the hosted environment.</li>
+                            <li>This is the recommended option for participants who want to focus on the exercises without spending time on setup and configuration.</li>
+                          </ul>
+                          <h5>Option 2: Run Your Own Local Instance</h5>
+                          <p>Participants who prefer to explore the platform locally can deploy PwnzzAI using Docker and choose between two LLM backends.</p>
+                          <h6>Option 2A: Commercial Models</h6>
+                          <ul>
+                            <li>An API key for OpenAI, Claude or Gemini is required.</li>
+                            <li>Model inference is performed by cloud models, so local hardware requirements are modest.</li>
+                          </ul>
+                          <p><strong>Recommended specifications:</strong></p>
+                          <ul>
+                            <li>CPU: 4 cores or more</li>
+                            <li>RAM: 8-16 GB</li>
+                            <li>Disk: 30 GB free space for Docker images</li>
+                          </ul>
+                          <h6>Option 2B: Ollama with Free Open-Source Models</h6>
+                          <p>The lab supports local execution using:</p>
+                          <ul>
+                            <li>Mistral 7B</li>
+                            <li>Llama 3.2 1B</li>
+                          </ul>
+                          <p>Because the models run locally, additional system resources are recommended.</p>
+                          <p><strong>Recommended specifications:</strong></p>
+                          <ul>
+                            <li>CPU: 8 cores or more</li>
+                            <li>RAM: 32 GB minimum</li>
+                            <li>Disk: 50-100 GB free SSD space for Docker images and model files</li>
+                            <li>Optional (recommended): NVIDIA GPU with 12 GB or more VRAM</li>
+                          </ul>
                         </div>
                         <div class="tab-pane" id="acc-4-simple-tabpanel-1" role="tabpanel" aria-labelledby="acc-4-simple-tab-1">
                           <p><strong>Behnaz Karimi</strong> is a Senior Cybersecurity Engineer specializing in AI security and a Co-Lead/Author and AI Red Teaming Lead at OWASP AI Exchange. She has spoken at Global AppSec Barcelona, OWASP Germany, and served as a panelist on AI Governance at ISACA Conference 2025 and ISDFS Boston. She also supports EU AI Act-related efforts, aligning AI security practices with regulatory requirements. With 17+ years of experience, she has worked across automotive and enterprise sectors with expertise in secure AI, threat modeling, and adversarial resilience.</p>
-                          <p><strong>Maryam Mouzarani</strong> is a Cybersecurity Engineer with 10+ years of experience in application security and penetration testing. She holds a PhD in Computer Engineering focused on software vulnerability analysis and has published research in this field. She specializes in AI and LLM security, conducting red teaming of generative AI systems. She also has 5 years of teaching experience and has developed multiple academic and professional courses.</p>
+                          <p><strong>Maryam Mouzarani</strong> is a Cybersecurity Engineer with over 10 years of experience in application security, penetration testing, and software vulnerability research. She holds a PhD in Computer Engineering, specializing in software vulnerability analysis, and has authored several publications in this field. Currently, she serves as an AI Red Team Engineer and Test Team Lead at Applause. She is the creator of PwnzzAI and currently leads the OWASP PwnzzAI project. In addition to her industry expertise, Maryam has more than five years of teaching experience and has designed and delivered a range of academic and professional training courses in cybersecurity and related disciplines.</p>
                         </div>
                       </div>
                     </div>
